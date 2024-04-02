@@ -1,0 +1,84 @@
+/* src/App.css or src/HomePage.css */
+
+/* Ensures the background and text colors are pleasant */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Styles for the user cards */
+  .card {
+    border: none;
+    border-radius: 0.5rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-img-top {
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    object-fit: cover;
+    border-radius: 50%; /* Make it round */
+    margin: 0 auto; /* Center the image */
+  }
+  .card-body {
+    word-break: break-word;
+  }
+    
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+  }
+  
+  /* Styles for the pagination controls */
+  .pagination {
+    margin-top: 1rem;
+  }
+  
+  .page-link {
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .page-item.disabled .page-link {
+    color: #6c757d; /* Bootstrap secondary color */
+  }
+  
+  .page-link:hover {
+    color: #0056b3; /* Slightly darker than primary color */
+  }
+  
+  /* Additional utility classes for spacing */
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .card-img-top {
+      height: auto; /* Adjust the height for smaller devices */
+    }
+  }
+  
